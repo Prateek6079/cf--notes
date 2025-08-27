@@ -14,5 +14,5 @@ These are my codeforces notes.
 
 7. Vasilije in Cacak [https://codeforces.com/contest/1878/problem/C] #900
 
-8. B. Swap and Delete [https://codeforces.com/problemset/problem/1913/B] #1000
+8. B. Swap and Delete [https://codeforces.com/problemset/problem/1913/B] #1000 #35mins
    This problem again reminds me of the two other problems that I have done one is of the good array and the other is of arranging, the first approach I thought just excess 1s or 0s will be the minimum number of coins but I quickly realised that the problem with this approach is that we can only delete from the resulting array not from the original therefore we have to replace the 1s and 0s with the other from left to right first and as soon as we can't everything else has to be deleted.
