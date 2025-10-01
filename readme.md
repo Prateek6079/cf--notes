@@ -16,3 +16,15 @@ These are my codeforces notes.
 
 8. B. Swap and Delete [https://codeforces.com/problemset/problem/1913/B] #1000 #35mins
    This problem again reminds me of the two other problems that I have done one is of the good array and the other is of arranging, the first approach I thought just excess 1s or 0s will be the minimum number of coins but I quickly realised that the problem with this approach is that we can only delete from the resulting array not from the original therefore we have to replace the 1s and 0s with the other from left to right first and as soon as we can't everything else has to be deleted.
+
+9. Replace with Occurrences [https://codeforces.com/contest/2137/problem/D] #1200 #54min
+
+10. Fun Permutation [https://codeforces.com/contest/2137/problem/B] #900 #13min
+
+11. Longest Divisors Interval [https://codeforces.com/contest/1855/problem/B] #900 #12mins
+    insight : the insight of the problem was any consecutive numbers are going to be the multiples of the same number of first natural numbers, hence they will be the divisor of the ultimate number and hence the first natural numbers from 1 to n will be the maximum interval.
+    This problem was again I cracked really quickly the insight, but I started thinking about the problem without looking at the testcases. Once I realised the problem's solution, again there was a longing for a proof and I made very minute mistakes in code, otherwise the problem could've been solved in under 5 minutes.
+
+13. Assembly via Minimums [https://codeforces.com/contest/1857/problem/C] #1200 #45mins
+    insight : the order does not matter && the maximum number would not appear in the b array, and you can't arbitrarily choose maximum because of the edge case that says all numbers should be in the limit including the maximum.
+    I started coding up the problem, and it was pretty decent from the very beginning and I was also able to analyze the edge cases, and also I wasted some time going to the bathroom in b/w, so realistacally could have been done in 35 mins, which is really great.
