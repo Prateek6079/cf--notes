@@ -1,1 +1,3 @@
-// standardized way to solve problems
+// standardized way to solve problems specifically on codeforces
+1. Always look at the input output constraints
+2. Write a clean algorithm on paper before submitting the code, not just an algorithm that works on a testcase but a general algorithm the very first time.
