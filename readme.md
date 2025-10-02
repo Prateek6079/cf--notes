@@ -28,3 +28,11 @@ These are my codeforces notes.
 13. Assembly via Minimums [https://codeforces.com/contest/1857/problem/C] #1200 #45mins
     insight : the order does not matter && the maximum number would not appear in the b array, and you can't arbitrarily choose maximum because of the edge case that says all numbers should be in the limit including the maximum.
     I started coding up the problem, and it was pretty decent from the very beginning and I was also able to analyze the edge cases, and also I wasted some time going to the bathroom in b/w, so realistacally could have been done in 35 mins, which is really great.
+
+14. Make It Zero [https://codeforces.com/contest/1869/problem/A] #900 #28mins
+    insight : The whole problem was bloatware, a lot of information given just to make it sound complicated and contraints to make it look challenging, but the whole problem required 4 steps max for odd and 2 steps max for even size arrays, the numbers inside the array did not matter at all either, the problem got me lacking and I started trying to find weird results from bitwise XOR, but I only needed to know two results to solve the whole problem a xor a = 0 and a xor 0 = a, I might not even need the second result to be honest. Bitchasss problem took advantage of a vulnerable man.
+
+
+15. Contrast Value [https://codeforces.com/contest/1832/problem/C] # 1200 #35 mins
+    insight : the array can be reduced to peaks and valleys only.
+I got the fucking insight real quick, but I wrote bad code that broke at multiple places without a proper algorithm in place, made for so much debugging, I should have first thought of all the edge cases as there were very few of them while writing a clean algorithm on the first try and submitted the right code, but finding the bug took a little trial and error which wasted so much time.
