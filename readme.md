@@ -36,3 +36,9 @@ These are my codeforces notes.
 15. Contrast Value [https://codeforces.com/contest/1832/problem/C] # 1200 #35 mins
     insight : the array can be reduced to peaks and valleys only.
 I got the fucking insight real quick, but I wrote bad code that broke at multiple places without a proper algorithm in place, made for so much debugging, I should have first thought of all the edge cases as there were very few of them while writing a clean algorithm on the first try and submitted the right code, but finding the bug took a little trial and error which wasted so much time.
+
+squarepoint challenge (cf round 1055, Div 1 + Div 2)
+
+16. A. Increase or Smash [https://codeforces.com/contest/2152/problem/A]
+17. B. Catching the Krug [https://codeforces.com/contest/2152/problem/B]
+18. C. Triple Removal [https://codeforces.com/contest/2152/problem/C]
