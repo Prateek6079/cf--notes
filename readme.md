@@ -40,5 +40,8 @@ I got the fucking insight real quick, but I wrote bad code that broke at multipl
 squarepoint challenge (cf round 1055, Div 1 + Div 2)
 
 16. A. Increase or Smash [https://codeforces.com/contest/2152/problem/A]
+    insight : there was realistically only one way to do it that was also progressing the problem closer to goal, prove.
 17. B. Catching the Krug [https://codeforces.com/contest/2152/problem/B]
+    insight : Very chess like, the only way to catch was to trap if it wasn't already catchable in 1 move, so the runner was to run somewhere with the most space, so it takes longer to catch, and once the runner is trapped he won't be able to increase distance b/w him and cahser, so the final result was distance + runway ahead. Look again to cement in head !
 18. C. Triple Removal [https://codeforces.com/contest/2152/problem/C]
+    insight : very easy to figure out the impossible case was where 1s or 0s count was not divisble by 3, only the alternate case was the one where there required an extra 1 cost for solving everywhere else it kind of figured itself out, prove.
