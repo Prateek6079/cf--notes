@@ -45,3 +45,15 @@ squarepoint challenge (cf round 1055, Div 1 + Div 2)
     insight : Very chess like, the only way to catch was to trap if it wasn't already catchable in 1 move, so the runner was to run somewhere with the most space, so it takes longer to catch, and once the runner is trapped he won't be able to increase distance b/w him and cahser, so the final result was distance + runway ahead. Look again to cement in head !
 18. C. Triple Removal [https://codeforces.com/contest/2152/problem/C] #1400 #60mins
     insight : very easy to figure out the impossible case was where 1s or 0s count was not divisble by 3, only the alternate case was the one where there required an extra 1 cost for solving everywhere else it kind of figured itself out, prove.
+
+19. A. Cover in Water [https://codeforces.com/contest/1900/problem/A] #800 #16mins
+    insight : Infinite water is you have 3 consecutive spaces
+20. C. Ski Resort [https://codeforces.com/contest/1840/problem/C] #1000 #14mins
+    insight : None
+    Sliding Window template implementation, very easy
+21. E. Scuza [https://codeforces.com/contest/1742/problem/E] #1200 #43mins
+    insight : Monotonic Array reduction, sorting is not required
+    Simple Binary Search problem, but I fucked it because I did not know it's template so I wrote really stupid and repetitive code which took a long time. Also once I cracked the problem but realised that I have to write messy code, perfectionism came in and manifested itself in disinterest and boredom.
+22. E. Anna and the Valentine's Day Gift [https://codeforces.com/contest/1931/problem/E] #1400 #47mins
+    insight : The number of digits cannot be more than initial because of concatenation and trailing zeroes can be deleted by the opponent, and it will try to delete the most in one move, therefore once the deletable zeroes are sorted in the descending order the opponent will destroy all alternate deletable zeros while the protector will protect the inbetween ones.
+    Fucked it again, because I lacked focus at the end of the 2 hour thing and did not realise that sort() was sorting in ascending order and lost my head, trying to figure out what was going on. definitely wasted 20 mins doing that. could have solved in 27 mins.
