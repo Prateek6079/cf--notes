@@ -57,3 +57,15 @@ squarepoint challenge (cf round 1055, Div 1 + Div 2)
 22. E. Anna and the Valentine's Day Gift [https://codeforces.com/contest/1931/problem/E] #1400 #47mins  
     insight : The number of digits cannot be more than initial because of concatenation and trailing zeroes can be deleted by the opponent, and it will try to delete the most in one move, therefore once the deletable zeroes are sorted in the descending order the opponent will destroy all alternate deletable zeros while the protector will protect the inbetween ones.  
     Fucked it again, because I lacked focus at the end of the 2 hour thing and did not realise that sort() was sorting in ascending order and lost my head, trying to figure out what was going on. definitely wasted 20 mins doing that. could have solved in 27 mins.  
+
+23. A. Operations with Inversions [https://codeforces.com/contest/2176/problem/A] #24mins  
+    problem(What it looks like) : You need to delete elements of the array using a rule and the rule is such that it depends on the elements present in the array itself. This makes it look like a problem where we need to delete elements optimally / carefully to delete the most.
+    reduction (insight) : the rule only looks like it depends on the present elements of the array but it really does not because if you delete some element using the rule you can still delete all the other elements that you could have deleted by applying the rule on the element that was just deleted.  
+    
+24. B. Optimal Shifts [https://codeforces.com/contest/2176/problem/B] #20mins
+    problem(What it looks like) : You need to perform operations in a way to reach the goal and minimize the operation cost. You can either do incremental operations or variable jump operations you have to find the best combination of operations the criteria for best being the lowest cost and reaching the goal.
+    reduction(insight) : The state cost of doing operations is linear meaning that doing an n jump operation cost the same as doing n incremental operations and at the same time doing incremental operations gaurantees reaching goals while doing jump operations does not. Therefore there is no issue of cost optimization and goal achievement is also gauranteed by doing incremental steps always.
+    
+26. C. C. Odd Process [https://codeforces.com/contest/2176/problem/C] #90mins
+    problem(What it looks like) : You want to accumulate the maximum points but if a certain condition is reached you will loose all points and will have to start from zero. You have to accumulate points one by one in K turns.
+    reduction(insight) : It is simply unavoidable to not loose all of your points at some point for some values of K. The damage needs to be minimized. We need to sacrifice the type of points that can make the rule will make the rule true and make sure that they are minimum. The incremental addition of points makes avoiding the rule inevitable and hence there is only one way of doing things at the end of the day.  
