@@ -75,12 +75,12 @@ squarepoint challenge (cf round 1055, Div 1 + Div 2)
     reduction(insight) : The problem only cares about when the valeus become zero so we can take all values to point such that the next operation will make them zero by doing value = value % k and everything that gets 0 to set it to k and then we can do the priority queue thing. Great problem learned a different technique to get things faster.  
 
 28. C. Little Girl and Maximum Sum [https://codeforces.com/contest/276/problem/C] #1500
-    problem(what it looks like) :
-    reduction(insight) :
+    problem(what it looks like) : It looks like a simple count frquency and then arrange the numbers like that. But to do the range query operations every single time is computationally expensive and you get a TLE error.  
+    reduction(insight) : The range queries can be merged into one result at once by using the diff array. The diff array works by incrementing the diff[start] and decrementing the diff[end + 1] for each range query (start, end). The diff array ends up creating a differential of the original freq function and the first value is also the same as C. The diff array is differntial of the original function while the Prefix is the integration of the same function.
 
 29. C. Two TVs [https://codeforces.com/contest/845/problem/C] #1500
-    problem (what it looks like) :
-    reduction (insight) :
+    problem (what it looks like) : It looks like a complex resource sharing problem but it is not.  
+    reduction (insight) : The problem is simple, the special condition isn't special it is just clarifying the already known conditions boundary case. Just simulate with bruteforce.
 
 30. A. Carnival Wheel [https://codeforces.com/contest/2180/problem/A]  
     problem (what it looks like) : You have to find the maximum values of the prize of each spin. It looks hard because we can't say what could be maximum as the floor division function that gives the remainder is kind of funky.  
