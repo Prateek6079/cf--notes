@@ -73,3 +73,30 @@ squarepoint challenge (cf round 1055, Div 1 + Div 2)
 27. A. Monsters [https://codeforces.com/gym/658336/problem/A] #30mins #1000  
     problem(what it looks like) : You want to do a procedure by selecting the maximum of the array and then reducing it by k and then you have to find the order in which the values become zero and return the indices in the order. The problem literally tells you what to do, just use a priority queue to achieve this but the twist is it takes very long too do it. This problem specifically tells you the solution and there is no faster wahy to simulate it then by the priority queue. The problem is tricky because you are not to find a better way to simulate just a faster way.  
     reduction(insight) : The problem only cares about when the valeus become zero so we can take all values to point such that the next operation will make them zero by doing value = value % k and everything that gets 0 to set it to k and then we can do the priority queue thing. Great problem learned a different technique to get things faster.  
+
+28. C. Little Girl and Maximum Sum [https://codeforces.com/contest/276/problem/C] #1500
+    problem(what it looks like) :
+    reduction(insight) :
+
+29. C. Two TVs [https://codeforces.com/contest/845/problem/C] #1500
+    problem (what it looks like) :
+    reduction (insight) :
+
+30. A. Carnival Wheel [https://codeforces.com/contest/2180/problem/A]  
+    problem (what it looks like) : You have to find the maximum values of the prize of each spin. It looks hard because we can't say what could be maximum as the floor division function that gives the remainder is kind of funky.
+    reduction (insight) : You don't need to use mathematics to do it either. Realize it's a wheel values are going to repeat after l spins. Find the maximum after simulation the l spins, simple bruteforce.
+
+31. B. Ashmal [https://codeforces.com/contest/2180/problem/B]  
+    problem (what it looks like) : Actually there is no reduction you just have to simulate exactly what the problem is describing and not over engineer.
+    reduction (insight) : The insight is really that the bruteforce works so you don't need more sophisticated methods or overthink the problem.
+
+32. C. XOR-factorization [https://codeforces.com/contest/2180/problem/C]  
+    problem (what it looks like) : Actually the problem is what it looks like the solution is much more deep than you think it is going to be for a C. You have to distribute 1s and 0s of the original number to maximize the answer into K boxes. Such that the the XOR of the k numbers is the original. All the numbers have to be equal to or less than the original number
+    reduction (insight) : First : For odd values of K we can maximize by just outputing n k times as that is the maximum possible.
+    Second : Everytime there is a 1 in the n we need that 1 to appear at an odd number of times in the K numbers and for 0 we can even stack 1s to maximize the eventual sum.
+    Third : We are required to keep all the K numbers less than or equal to the original number, therefore when we are stacking 1s the number does not exceed n. Property of Binary Numbers : You can compare binary numbers from MSB to LSB and if one bit is set and the other is not then one with the set bit is going to be bigger than the other. We use the this property to part the K numbers into 2 groups Loose and Tight. Loose numbers are the ones that are already smaller than n and can't get greater than n as we are assigning bits of n and the tight numbers are the ones that are so far equal to n as we are assinging the bits of n. Because we only need this level of a sophisticated solution when K is even we know that we will need to skip a number when we are assigning ones of the original number always (as the number of 1s need to be odd), The skipped number will become loose. We need to make sure that we make as many loose numbers as possible and once they get loose we can stack 1s for 0s of the original numbers on the loose numbers to maximize our result. This way we can assign bits from MSB of the original to LSB of the original into K different numbers and maximize their sum. TADA !!!
+
+34. A. Blackslex and Password [https://codeforces.com/contest/2179/problem/A]  
+    problem (what it looks like) : You need to comeup with a password such that any distance b/w the characters that is divisible by x can't have the same character. We need to find the minimal length n for which no such string can exist for a given k quantity of distinct characters.
+    reduction (insight) : You can have blocks of x adjacent characters of the same kind to maximize the length and then at max you will have a password of length k * x. so minimal n will be k * x + 1.
+      
