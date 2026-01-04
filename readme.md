@@ -109,10 +109,10 @@ squarepoint challenge (cf round 1055, Div 1 + Div 2)
     insight : simple sorting and then creating teams. Again I was trying to solve a harder problem at firsy because of my hard problem mentality and resistance to bruteforce.
 
 36. C. Combination Lock [https://codeforces.com/contest/2091/problem/C] #22mins #1000
-    problem : Had to find a permutation such that all cyclic shifts have exactly one number that is in the same position as it's value in the permutation.
+    problem : Had to find a permutation such that all cyclic shifts have exactly one number that is in the same position as it's value in the permutation.  
     insight : Let's fix a number at it's right position. Now to make a correct permutation no other numbers can be at their places. This turns the problem into a resource allocation problem where we have n - 1 agents and have n - 1 resources and each agent can consume 1 resource. There is an additional constraint that is they can't consume resources such that the distance between them and the resource is the same. If we carried out the resource allocation the best way possible even then if k agents are allocated some k resources for all the remaining agents the number of available resources will decrement by k no matter how you do it and that is actually ensured by the third constraint. We know an optimal way to allocate two resources to two agents such that only 2 are decremented from others option and that is by swapping the first and last element. This way we can optimally allocate resources in pairs of 2, and hence if n - 1 is odd there is no way to allocate the final resource and hence the soulution is not possible for n being odd.
 
 37. D. Place of the Olympiad [https://codeforces.com/contest/2091/problem/D] #1200
-    problem : we need to select blocks in a row such that sum k squares are selected and minimize the cost which is the size of the largest block.
+    problem : we need to select blocks in a row such that sum k squares are selected and minimize the cost which is the size of the largest block.  
     insight : To maximize capacity in a row we choose sum maximum block and then use as many of these as blocks as possible if we have space left then we use smaller blocks too. Larger the block more it's efficient in acquiring space that's why we first put the larger blocks and only when they can't fit we put the smaller blocks. Then we multiply it by the number of rows to check if it is enough. Now we can just use binary search on answers to guess in logarithmic time.
       
