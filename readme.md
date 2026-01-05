@@ -115,4 +115,26 @@ squarepoint challenge (cf round 1055, Div 1 + Div 2)
 37. D. Place of the Olympiad [https://codeforces.com/contest/2091/problem/D] #1200  
     problem : we need to select blocks in a row such that sum k squares are selected and minimize the cost which is the size of the largest block.  
     insight : To maximize capacity in a row we choose sum maximum block and then use as many of these as blocks as possible if we have space left then we use smaller blocks too. Larger the block more it's efficient in acquiring space that's why we first put the larger blocks and only when they can't fit we put the smaller blocks. Then we multiply it by the number of rows to check if it is enough. Now we can just use binary search on answers to guess in logarithmic time.
+
+38. A. Little Fairy's Painting [https://codeforces.com/problemset/problem/2175/A] #800  
+    problem : It looks like we will need to calculate the value till 1e18.  
+    insight : The new values stop generating as we reach a value that is already painted and the max of the number cannot be less than total distinct numbers therefore there always will be one greater or equal. Now we only need to find it, we can do that simply by using binary seach upper bound.  
+
+39. D. Yet Another Array Problem [https://codeforces.com/problemset/problem/2167/D] #1000  
+    problem : It looks like we need some clever technique to find one. but prime factorization is one of the hardest problems in all computer science. Overthought this bitch
+    insight : We can just brute force it by using the simple euclidean gcd function.  
+
+40. B. Even Modulo Pair [https://codeforces.com/problemset/problem/2164/B] #1000  
+    problem : It looks like we need some clever technique to find one. but prime factorization is one of the hardest problems in all computer science. Overthought this bitch.  
+    insight : We can just bruteforce it.  
+
+41. B. Niko's Tactical Cards [https://codeforces.com/problemset/problem/2173/B] #1100  
+    problem : It looks like we need to calculate all posssible ways to solve this problem but it is a pretty common dp pattern where all the possibilities conerge into some finite cases at local solutions.  
+    insight : Just use kmin and kmax for each turn as kmax can turn into kmin and kmin can turn into kmax and these extreme values are the only way we can get the maximum possible result.  
+
+42. C1. Renako Amaori and XOR Game (easy version) [https://codeforces.com/problemset/problem/2171/C1] #1100  
+    problem : it looks like you have to take into account many game states and all the possile actions to determine what will happen. Did exactly that  
+    insight : Simply think about xor and all we need is even and odd chances. When both a and b have even or odd opportunities to swap it is always going to be a Tie because trying to ruin the other person's game will also ruin your game and improving your game will improve their's too. The case where one has even opportunities and the other has odd opportunities the one who has the final opportunity can change everything and win.  
+
+
       
