@@ -134,7 +134,31 @@ squarepoint challenge (cf round 1055, Div 1 + Div 2)
 
 42. C1. Renako Amaori and XOR Game (easy version) [https://codeforces.com/problemset/problem/2171/C1] #1100  
     problem : it looks like you have to take into account many game states and all the possile actions to determine what will happen. Did exactly that  
-    insight : Simply think about xor and all we need is even and odd chances. When both a and b have even or odd opportunities to swap it is always going to be a Tie because trying to ruin the other person's game will also ruin your game and improving your game will improve their's too. The case where one has even opportunities and the other has odd opportunities the one who has the final opportunity can change everything and win.  
+    insight : Simply think about xor and all we need is even and odd chances. When both a and b have even or odd opportunities to swap it is always going to be a Tie because trying to ruin the other person's game will also ruin your game and improving your game will improve their's too. The case where one has even opportunities and the other has odd opportunities the one who has the final opportunity can change everything and win.
+
+43. A. Sleeping Through Classes [https://codeforces.com/gym/662525/problem/A] #800 #11mins  
+    problem : It seems like you have to find the optimal way to sleep but the optimal way is to just sleep anytime you can  
+    insight : Apply simple brute force and get the solution as sleeping does not affect other chances to sleep we can just sleep whenever it is possible to maximize sleeping. It should have been solved in 5 minutes but I was inputing an array even though it was a string.  
+
+44. B. Strange Machine [https://codeforces.com/gym/662525/problem/B] #1000 #49mins  
+    problem : Given a sequene of irreversible operations on a number find a result.  
+    insight : At the start I was simply resisting bruteforce even though I knew that this particular function I have to simulate as it is not reversible and I can't just get the result. So I ran a recursive function but my instinct did say for a certain type of input it will take too long and I got the stack overflow error because of that. Still being stubborn because I wanted an elegant solution that is not different for two kinds of inputs, I wrote a looped version and that ran into TLE and finally after I was defeated multiple times, I wrote the version which works differently for the two kinds of input and got accepted. Just write the version that works bro !!! Works == elegant == best.  
+
+45. C. Make it Zigzag [https://codeforces.com/gym/662525/problem/C] #1000 #27mins  
+    problem : we had to make the array zigzag by using the two operations. operation 1 : set ai as the prefix maximum till ai including ai and operation 2 : decrement ai. Minimize the second operation and tell cost.  
+    insight : The first operation will only increase the value or keep it same so in a zigzag we need to use it on the upper values only and then we need to decrement the lower values till they are finally lower than their neighbours and calculate the cost. It could have been solved in 15 minutes at max but I made coding error where my prefix maximum was not the true maximum it was only the maximum of even indexed numbers.  
+
+46. D. Drifting Away [https://codeforces.com/gym/662525/problem/D] #1100  
+    problem : it looks like you have to find all the complex ways you can reach shore but as you want to stay as long as possible then any loop will make it inifinite and therefore it is a straight forward path.  
+    insight : I coded up a step by step solution that was pretty good but still didn't code it rigourously for all cases and hence failed a lot of testcases. Did the same thing for 2 different sections if the code and hence it took a long time, then there was another subtle mistake where I assumed that right would be n - left but it is not as there can be overlapping sections.  
+
+47. E. Distinct Elements [https://codeforces.com/gym/662525/problem/E] #1100  
+    problem : Find array a from b and we know that bi = f(a[1, i]) + f(a[2, i]) + .. f(a[i, i]). It looks like the function is irreversible which it is by itself but we only need some correct a.  
+    insight : The function is accumulative so finding the difference between the values of bi should reveal something. Bi+1 - Bi - 1 gives us exactly till how far back in the array there is no duplicate of the ith element in a and using this particular information we can make an a. I completely relied on my instinct for this one and surprisingly got accepted in the 1st take.  
+
+48. C. Kanade's Perfect Multiples [https://codeforces.com/contest/2173/problem/C] #1400  
+    problem : it looks like you have to find some clever way to factorize the elements but that is almost never the right approach because factorization is such a hard problem in cs.  
+    insight : Do bruteforce but as efficiently as possible make sure the numbers do not repeat make sure that you can check membership in O(1) make sure you don't recheck some number that you have already checked, start from the smallest so that it has more chances of failing early and decreasing computational need. I made an error in this problem where it completely slipped my mind to handle duplicates and that gave me a wrong submission.  
 
 
       
