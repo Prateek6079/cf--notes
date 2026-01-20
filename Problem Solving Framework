@@ -3,3 +3,4 @@
 2. Write a clean algorithm on paper before submitting the code, not just an algorithm that works on a testcase but a general algorithm the very first time.
 3. For lower rated problems if the idea is getting too complicated abandon it. Breadth First Search.
 4. Prevent intellectual fixation and toggle between problems, the law of diminishing returns remember staying longer won't benefit as much as looking at a new problem.
+5. Calculate the worst time complexity that will be accepted, please mf.
