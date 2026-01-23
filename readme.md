@@ -160,5 +160,19 @@ squarepoint challenge (cf round 1055, Div 1 + Div 2)
     problem : it looks like you have to find some clever way to factorize the elements but that is almost never the right approach because factorization is such a hard problem in cs.  
     insight : Do bruteforce but as efficiently as possible make sure the numbers do not repeat make sure that you can check membership in O(1) make sure you don't recheck some number that you have already checked, start from the smallest so that it has more chances of failing early and decreasing computational need. I made an error in this problem where it completely slipped my mind to handle duplicates and that gave me a wrong submission.  
 
+49. C. Multiple Construction [https://codeforces.com/gym/662966/problem/C] #1000 #33mins  
+    problem : It looks like you have to find some clever way to fit everything.    
+    insight : There is no real insight you just realize that there is only one way to put the nth element in such that the difference constraint is not violated. And with just trial and error you can find one way to fill all the positions. The real insight was that I got stubborn with my approach till I lost focus, there was a much simpler appraoch that I found later. I need to stop fixating on complicated approaches.  
+    
+50. D. Abraham's Great Escape [https://codeforces.com/gym/662966/problem/D] #1100 #1hr  
+    problem : Find the way to escape  
+    insight : Again making the problem more complex than it is, we need to find a simple loop and then just make everything else feed into that loop. Made a whole lot of coding errors, took time understanding the problem and then tunnel visioned on complex approaches.  
 
-      
+51. B. Merging the Sets [https://codeforces.com/contest/2146/problem/B] #1100  
+    problem : Find three ways to union some s sets to get a complete set, it seems like you will have to try out all ways.  
+    insight : The easiest way to get one way is to just merge all the sets. Now to get other two ways just delete one set, one by one and after you have done them and can't get complete sets then you won't after removing more because of the property of union. I constantly kept hitting the memory limited exceeded error because I optimized on the wrong variable, O(m*n) was gauranteed to be 10^9 but O(l) was gauranteed to be 10^5. I learned two things here, one about the property of unions and second about optimizing on the right variable.  
+
+52. B. Deck of Cards [https://codeforces.com/gym/663264/problem/B] #1100 #1hr  
+    problem : Doing it manually makes for stupidity  
+    insight : The order of the way things happen does not really matter. Again locked in on the manual approach and wasted unbelievable amount of time, the hint is always that it's not so deep, bro.  
+
