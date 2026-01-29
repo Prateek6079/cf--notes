@@ -176,3 +176,10 @@ squarepoint challenge (cf round 1055, Div 1 + Div 2)
     problem : Doing it manually makes for stupidity  
     insight : The order of the way things happen does not really matter. Again locked in on the manual approach and wasted unbelievable amount of time, the hint is always that it's not so deep, bro.  
 
+53. C. Maximum Cost Permutation [https://codeforces.com/gym/663264/problem/C] #1000 #23mins  
+    problem : It looks liek you have to solve amuch harder problem then you actually do, make sure that you never believe that.  
+    insight : you can only insert some elements, so you can't do much so just insert them in reverse order to make sure that they are never in the sorted order. ANd then just calculate the cost, because you can't do anything else.  
+
+54. B. Discounts [https://codeforces.com/gym/664141/problem/B]
+    problem : Understand the constraints very carefully and see what they imply. Things can be in the group only once and then 
+    
