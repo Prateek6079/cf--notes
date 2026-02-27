@@ -178,8 +178,25 @@ squarepoint challenge (cf round 1055, Div 1 + Div 2)
 
 53. C. Maximum Cost Permutation [https://codeforces.com/gym/663264/problem/C] #1000 #23mins  
     problem : It looks liek you have to solve amuch harder problem then you actually do, make sure that you never believe that.  
-    insight : you can only insert some elements, so you can't do much so just insert them in reverse order to make sure that they are never in the sorted order. ANd then just calculate the cost, because you can't do anything else.  
+    insight : you can only insert some elements, so you can't do much so just insert them in reverse order to make sure that they are never in the sorted order. ANd then just calculate the cost, because you can't do anything else.      
 
-54. B. Discounts [https://codeforces.com/gym/664141/problem/B]
-    problem : Understand the constraints very carefully and see what they imply. Things can be in the group only once and then 
+
+    ----------------------Reset After Midsem---------------------    
+
+Observation : I have regressed because of not doing CF throughout the exams, the perfectionism has came back also I am being little clever about writing code even though I am still pretty clever about solving problems.    
+
+1. CF Round 1081 (Div. 2) Virtual  
+A. String Rotation Game [https://codeforces.com/contest/2192/problem/A] 1hr 26min  
+Learnings : Very simple got the core idea very quick but messed up and ended up doing a very small mistake in the code that got my submission rejected. Did the right thing left it off after doing other problems came back and fixed the mistake. The coming back method works better because you understand the grounds of what you have to do much better and are more confident about it otherwise you feel like you are losing time on other opportunities that might not even exist and staying on the same problem puts pressure on you to solve it too.  
+B. Flipping Binary String [https://codeforces.com/contest/2192/problem/B] 1hr 1min  
+Learning : This problem looked like a tough nut tocrack at first and I was circling in ideas and not focusing and going on a straight path that's why it took me long too realise there was only one way to do this. made no mistakes in the code thankfully.  
+C. All-in-one Gun [https://codeforces.com/contest/2192/problem/C] upsolved  
+Learnig : I solved the core structure of the problem really quick but I was just not thinking in code and algorithms and that I think is the absolute sign of being rusty, I didn't think about how to code this up right and I changed my approach atleast 3 times till I found the prefix min and suffix max approach. This revealed real rust.      
+
+2. Educational CF Round 187 (Div. 2) Virtual  
+A. Towers of Boxes [https://codeforces.com/contest/2203/problem/A] 7mins  
+Learnings : One of the simplest problems of all time, just the least amount of overthinking, I have ever done. Finally used the Smallest Integer greater than equal to trick on this bitch in real time.  
+B. Beautiful Numbers [https://codeforces.com/contest/2203/problem/B] 1hr 18mins  
+Learnings : Found the core structure of the problem again very very quickly. Wrote bad code that I had to fix again and again, did not think straight while writing code. Then because of focusing too much on fixing the bad code forgot about the constraints given in the problem and totally ignored an edge case due to which had my submission rejected.  
+
     
