@@ -209,4 +209,15 @@ Learnings : I locked into an assumption that was wrong very early in the problem
 C. Secret message [https://codeforces.com/contest/2194/problem/C] upsolved  
 Learnings : Just had to convert each possible letter at each position (1-n) into a 26 bit number where each bit represent the existence of that character. Now if we want to see if a certain character exists at two different positions all we have to do is a bitwise & and check if that bit is set. This makes the union operation O(1). Now if you do bruteforce with assuming informativity from 1 to n / 2 (only values that divide n into integers) you can check for correctness in O(n) time. Therefore the total complexity became O(n^2). Pretty awesome problem to be honest, all you had to do was represent the input more cleverly.      
 
+4. CF Round 1057 (Div. 2) Virtual  
+A. Circle of Apple Trees [https://codeforces.com/contest/2153/problem/A] #4min  
+Learnings : Nothing really but full focus attention gave me powers, I could visualize everything as I was reading the problem and solved it in my head.  
+B. Bitwise Reversion [https://codeforces.com/contest/2153/problem/B] #22min  
+Learnings : The input directly put a constrain on the solution and then we just had to simulate if the solution fit the constraints. I definitely have a problem with premature assumptions now, is it growth or just an expense of speed, because I am really fast now despite it.  
+C. Symmetrical Polygons [https://codeforces.com/contest/2153/problem/C] #1hr 19min  
+Learnings : I fucking solved the problem at 1hr 19 mark that would have been amazing if I was not a mfffffffffffff piece of shit trying to be clever in the code, reuse loops and shit instead of marking shit that I have already processed. If I just wrote simpler code that shit would work, but again the rust is alive and well. Maybe I am pushing it, but there is definitely atrophy in CF skils but today it was almost restored.  
+Summary : This contest was pretty good, I remembered to calm down and not look at the clock that helped immensely, I was much faster than I expected myself to be, I had ample time but I was blind and I knew I could not get behind it, maybe I should have kept trying, but we will fight another day, this battle even lost showed real fight.      
+
+
+
     
