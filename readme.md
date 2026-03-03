@@ -198,7 +198,15 @@ A. Towers of Boxes [https://codeforces.com/contest/2203/problem/A] 7mins
 Learnings : One of the simplest problems of all time, just the least amount of overthinking, I have ever done. Finally used the Smallest Integer greater than equal to trick on this bitch in real time.  
 B. Beautiful Numbers [https://codeforces.com/contest/2203/problem/B] 1hr 18mins  
 Learnings : Found the core structure of the problem again very very quickly. Wrote bad code that I had to fix again and again, did not think straight while writing code. Then because of focusing too much on fixing the bad code forgot about the constraints given in the problem and totally ignored an edge case due to which had my submission rejected.  
+C. Test Generator [https://codeforces.com/contest/2203/problem/C] upsolved  
+Learnings : I was constantly toggling between the bit and the whole number approach even though the whole number approach had nothing in it, I was trying to force simplicity. The bit approach worked and I found how I could make it, but I did not realize that minimization could be done further, maybe because I did not take appropriate counter-examples on paper. I actually was so busy trying to implement it, I couldn't look further. You had to do binary search on answers to minimize it, and a second minimization step makes the first step pretty easy. So maybe decomposing the process would have been a good approach.      
+ 
+3. CF Round 1078 (Div. 2) Virtual  
+A. Lawn Mower [https://codeforces.com/contest/2194/problem/A] 6mins  
+Learnings : Nothing, really. Greedy Maximization that does not constraint later possibilities and works.  
+B. Offshores [https://codeforces.com/contest/2194/problem/B] upsolved  
+Learnings : I locked into an assumption that was wrong very early in the problem, the assumption was right but incomplete. I never challenged myself, I think the time constraint is making me solve incomplete problems. I need to relax and solve.  
 C. Secret message [https://codeforces.com/contest/2194/problem/C] upsolved  
-Learnings : Just had to convert each possible letter at each position (1-n) into a 26 bit number where each bit represent the existence of that character. Now if we want to see if a certain character exists at two different positions all we have to do is a bitwise & and check if that bit is set. This makes the union operation O(1). Now if you do bruteforce with assuming informativity from 1 to n / 2 (only values that divide n into integers) you can check for correctness in O(n) time. Therefore the total complexity became O(n^2). Pretty awesome problem to be honest, all you had to do was represent the input more cleverly.
+Learnings : Just had to convert each possible letter at each position (1-n) into a 26 bit number where each bit represent the existence of that character. Now if we want to see if a certain character exists at two different positions all we have to do is a bitwise & and check if that bit is set. This makes the union operation O(1). Now if you do bruteforce with assuming informativity from 1 to n / 2 (only values that divide n into integers) you can check for correctness in O(n) time. Therefore the total complexity became O(n^2). Pretty awesome problem to be honest, all you had to do was represent the input more cleverly.      
 
     
