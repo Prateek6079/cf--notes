@@ -225,5 +225,15 @@ B. Add 0 or K [https://codeforces.com/contest/2134/problem/B] #26min
 Learning : Correct Modelling, Correct Methematical Implementation. A little bit of hesitation because of GCD.  
 C. Even Larger [https://codeforces.com/contest/2134/problem/C] #1hr 28min  
 Learning : Perfect beast of a problem that exposed my real problem right now. I have not done hard algorithmic problems for a long time now and that is costing me, because I am not implementing cleanly and efficienty even after solving the problem. I reduced this problem very early to what needed to be done and since then I was just trying to find the way of traversing the array with calculating subarrays at the same time, and I was missing including the new subarray that is created because we are only counting subarrays with legnth 2. But I figured it out an honestly very releived that it all worked.  
-Summary : Before this contest I was worried that I had forgotten all those DSA patterns but that was not true I was just rusty and underestimating the depth of algorithmic thinking that was required by the problems. I need to get this rust off and the way to do it is to solve problems without any time pressure. So I am not going to solve harder problems and learn new algorithmic patterns.      
+Summary : Before this contest I was worried that I had forgotten all those DSA patterns but that was not true I was just rusty and underestimating the depth of algorithmic thinking that was required by the problems. I need to get this rust off and the way to do it is to solve problems without any time pressure. So I am not going to solve harder problems and learn new algorithmic patterns.        
+
+
+6. CF Round 1035 (Div. 2 Virtual)  
+A. Add or XOR [https://codeforces.com/contest/2119/problem/A] #16min #800  
+Learnings : I was bit not in the right headspace before trying to solve this problem and took longer than I should have.  
+B. Line Segments [https://codeforces.com/contest/2119/problem/B] #1hr #1200  
+Learnings : The problem reduced simply into the polygon test, but because I had never faced a problem where decimals were involved I did not know tha I should have used double for this problem and that created overcomplications and Bad Submissions.  
+C. A Good Problem [https://codeforces.com/contest/2119/problem/C] #1hr43mins #1300  
+Learnings : In this problem we really had to find a case mathematically where something had to be true, and I made an error shifting bits into overflow. Clear thinking would have solved this problem in under 5-10 minutes  
+Summary : My brain was a bit contused and I was out of my mind a little bit a I just woke up and gave the contest but I still was able to get to the core of each Idea, but I should have thought straight and stuck a bit longer to the drawing board maybe.        
     
