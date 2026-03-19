@@ -236,4 +236,14 @@ Learnings : The problem reduced simply into the polygon test, but because I had 
 C. A Good Problem [https://codeforces.com/contest/2119/problem/C] #1hr43mins #1300  
 Learnings : In this problem we really had to find a case mathematically where something had to be true, and I made an error shifting bits into overflow. Clear thinking would have solved this problem in under 5-10 minutes  
 Summary : My brain was a bit contused and I was out of my mind a little bit a I just woke up and gave the contest but I still was able to get to the core of each Idea, but I should have thought straight and stuck a bit longer to the drawing board maybe.        
+
+
+7. CF Educational Round 188 (Div. 2) Virtual  
+A. Passing the Ball [https://codeforces.com/contest/2204/problem/A] #6min  
+Learnings : Straight forward imlpementation  
+B. Right Maximum [https://codeforces.com/contest/2204/problem/B] #14min  
+Learnings : Just a simple sorting problem  
+C. Spring [https://codeforces.com/contest/2204/problem/C] #1hr 42min  
+Learnings : I cracked the inclusion-exclusion principle I think quick and I understood how to find the the answer from it. The code was super ugly though and there were way too many variables. I assumed something really stupid, I made a really stupid mathematical assumption in which I believed that if c is divisible a and it is divible by b then it will be divisible by ab. Then I realised that I had to count factors and find a real product. Again I made a mistake in how I implemented that and got myself into a logical error which was not the problem and because of that I kept rechecking that problem in my code when I was not getting the results, then I realised my 3rd fucking mistake which was the bad code through which I implemented spf. I think what happened is I got very excited as soon as I found the inclusion exclusion trick and lost my head completely and thought, hey today I will take a good shot at D and then pushed a half baked algorithm and had to comeback to the drawing board.  
+Summary : Stay calm and focused throughout the contest, maintain composer, you can't think about time and results when the contest is still running. Stay locked in, you can't look at time. I also think this happened because I only aimed till C and got stuck at only the last problem which did not give me a new look at it which I would have gained from coming back after reading and thinking about another problem.        
     
