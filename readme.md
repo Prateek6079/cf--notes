@@ -247,3 +247,14 @@ C. Spring [https://codeforces.com/contest/2204/problem/C] #1hr 42min
 Learnings : I am fucking reinventing the wheel all the time and doing so very stupidly. I just needed to find the LCM and I wrote such convoluted code for that shit. LCM of a and b = a*b / hcf(a, b). HCF of a and b can be found in logarithmic time using the euclid's algorithm.  
 Summary : Stay calm and focused throughout the contest, maintain composer, you can't think about time and results when the contest is still running. Stay locked in, you can't look at time. I also think this happened because I only aimed till C and got stuck at only the last problem which did not give me a new look at it which I would have gained from coming back after reading and thinking about another problem.        
     
+
+8. Educational CF Round 180 (Div. 2) Virtual  
+A. Race [https://codeforces.com/contest/2112/problem/A] #800 #4mins  
+Learnings : Straighforward, simple, clean  
+B. Shrinking Array [https://codeforces.com/contest/2112/problem/B] #1100 #29mins  
+Learnings : Overengineered, in the sense solved the more general harder problem. I should have realised that there was no more than 1 operation that could achieve it everytime if it was possible and if it wasn't already satisfied.  
+C. Coloring Game [https://codeforces.com/contest/2112/problem/C] #1300 #1hr 12mins  
+Learnings : Maybe should have been more careful writing code made a very basic error in the binary search function.  
+D. Reachability and Tree [https://codeforces.com/contest/2112/problem/D] #1700 Upsolved  
+Learnings : Somehow I stumbled onto the very simple right idea that all you needed that had exactly 2 edges but made a grave error in the code that somehow passed the first testcase, I just did not mark the visited nodes visited in the BFS and for that reason my code failed. If it weren't for this it would have been my first time ever solving a Div.2 D in a virtual contest.  
+Summary : Your Boy is seriously good now, I mean on a slightly better day I would have pulled this shit off. Maybe I should now add a step 4 to my process to remove overengineering which is to check if I can solve the problem more simply, so that I don't make the mistake I made in the B problem which costed me some time. Also because I don't believe in myself I assumed my code was slower than what was required even though my code was completely perfect, my dumbass just forgot to write a crucial line.          
